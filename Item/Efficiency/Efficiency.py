@@ -65,8 +65,8 @@ class TestItem(ItemCore.TestItem):
 
     def First_Run(self):
         super().First_Run()
-        DC_Power_Supply[0].Set_Imax(4)
-        DC_Power_Supply[0].Turn_ON(12)
+        # DC_Power_Supply[0].Set_Imax(4)
+        # DC_Power_Supply[0].Turn_ON(12)
 
     def Last_Run(self):
         super().Last_Run()
