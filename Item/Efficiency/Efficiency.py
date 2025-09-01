@@ -14,7 +14,7 @@ class THD_Data(Serializable_Data):
         self.Series: List[float] = [0.0]
         self.Total_Harmonic = JudgementData_Float()
 
-
+ 
 class Measure_Setting(Serializable_Data):
     def __init__(self, CSVName=""):
         super().__init__(CSVName)
