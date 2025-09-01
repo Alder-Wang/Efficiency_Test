@@ -25,7 +25,7 @@ class Measure_Setting(Serializable_Data):
         self.Vin_Adjustment_Retry = 50
         self.Average_Count = 32
         self.Harmonic_Order = 40
-
+ 
 
 class LogUnit(ItemCore.LogUnit):
     def __init__(self) -> None:
